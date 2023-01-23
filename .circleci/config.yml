@@ -70,7 +70,6 @@ jobs:
           # TODO: Install, build, deploy in both apps
           command: |
             echo "# TODO: Install, build, deploy in both apps"
-            eb setenv POSTGRES_USERNAME=postgres POSTGRES_PASSWORD=password POSTGRES_HOST=database-1.cgtuxfi9hktl.us-east-1.rds.amazonaws.com POSTGRES_DB=data1
             npm run api:deploy
             
 workflows:
