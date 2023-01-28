@@ -78,7 +78,7 @@ workflows:
       - build:
           filters:
             branches:
-              only: main
+              only: master
       - deploy:
           requires:
             - build
